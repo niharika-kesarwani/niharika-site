@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/** general **/
+
+:root{
+    --primarycolor: #3B82F6; 
+    --graycolor: #9CA3AF; 
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0rem;
+}
+
+.container{
+    padding: 0rem 2rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.links-primary{
+    background-color: var(--primarycolor);
+    border-radius: 0.5rem;
+    color: white;
+    border: 1px solid var(--primarycolor);
+}
+
+.links-secondary{
+    background-color: white;
+    border-radius: 0.5rem;
+    color: var(--primarycolor);
+    border: 1px solid var(--primarycolor);
+}
+
+.lists-non-bullet{
+    list-style: none;
+}
+
+.lists-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.nav{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 1rem 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+}
+
+.nav .links{
+    color: white;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.links-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    color: var(--graycolor);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero-heading-inverted{
+    font-weight: bold;
+    color: var(--primarycolor);
+}
+
+.section{
+    text-align: center;
+    padding: 2rem;
+}
+
+.gray{
+    background-color: var(--graycolor);
+}
+
+.footer{
+    background-color: var(--primarycolor);
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-ul-links{
+    padding-left: 0px;
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+    padding-left: 0px;
+}
