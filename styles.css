@@ -93,6 +93,7 @@ body{
     max-width: 350px;
     display: block;
     margin: auto;
+    padding: 2rem;
 }
 
 .hero-heading{
@@ -142,4 +143,8 @@ body{
     color: white;
     text-decoration: none;
     padding-left: 0px;
+}
+
+.dummy-margin{
+    padding: 5rem 0rem;
 }
