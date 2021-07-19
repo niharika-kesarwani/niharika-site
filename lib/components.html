@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niharika's component library</title>
+    <link href="/styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <h1> niharika's component library </h1>
+    <strong>Niharika Kesarwani </strong>is attending neog.camp.
+    <div> This is a component library created to better design each element.</div>
+    <div>After creating this library I am going to use the components in my <strong>portfolio, blog and all projects</strong> created.<br>This will ensure that all my projects have <b>consistent themeing and styling</b></div>
+
+    <hr>
+
+    <h2>@typography</h2>
+    <h1>This is the biggest heading</h1>
+    <h2>This is the second biggest heading</h2>
+    <p> This is normal text which is longer than the width of the screen hence it will auto fold based on the width.</p>
+    <small>This is a relatively smaller text</small>
+
+    <hr>
+
+    <h2>@containers</h2>
+
+    <h3>@fluid container</h3>
+    <div class="container">This is going to be a fluid container. It will go full width of page with some margin.</div>
+
+    <h3>@center container</h3>
+    <div class="container container-center">This is going to be a center container. It will go till a given width and center content.</div>
+
+    <hr>
+
+    <h2 class="links">@links</h2>
+    <a class="links links-primary" href="/">Primary Link</a>
+    <a class="links links-secondary" href="/">Secondary Link</a>
+
+    <hr>
+
+    <h2 class="lists">@lists</h2>
+    <h3>unordered lists</h3>
+    <p>This will create a list without any numerical numberings.</p>
+    <ul class="lists-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+
+    <h3>unordered inline lists</h3>
+    <p>This will create a list with items in a single row instead of a new row for each new item. </p>
+    <ul class="lists-non-bullet">
+        <li class="lists-item-inline">Inline Item one</li>
+        <li class="lists-item-inline">Inline Item two</li>
+        <li class="lists-item-inline">Inline Item three</li>
+    </ul>
+
+    <h3>reverse ordered lists</h3>
+    <p>This will display a list with reversed numbering.</p>
+    <ol reversed>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <hr>
+
+    <h2>@nav</h2>
+    <p>This is used generally on top of the page to direct the user to different pages.</p>
+    <nav class="nav">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="lists-non-bullet nav-pills">
+            <li class="lists-item-inline"><a class="links links-active"  href="/">home</a></li>
+            <li class="lists-item-inline"><a class="links"  href="/">products</a></li>
+            <li class="lists-item-inline"><a class="links"  href="/">about</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <h2>@header</h2>
+    <header class="hero">
+        <img class="hero-img" src="images/header-image.svg">
+        <h1 class="hero-heading">niharika kesarwani the <span class="hero-heading-inverted"> web developer</span></h1>
+    </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <div>A section is used to separate parts of pages. In marketing websites you would have seen a header followed by sections of features, team, pricing, contact info etc.</div>
+    <section class="section">
+        <div>
+            <h1>white section</h1>
+            <p>This section will have white background</p>
+        </div>
+    </section>
+
+    <section class="section gray">
+        <div>
+            <h1>gray section</h1>
+            <p>This section will have gray background</p>
+        </div>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <div class="footer-header">header inside footer</div>
+        <ul class="footer-ul-links">
+            <li class="lists-item-inline"><a class="footer-links" href="/">socialOne</a></li>
+            <li class="lists-item-inline"><a class="footer-links" href="/">socialOne</a></li>
+            <li class="lists-item-inline"><a class="footer-links" href="/">socialOne</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
