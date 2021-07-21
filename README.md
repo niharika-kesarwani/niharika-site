@@ -10,4 +10,4 @@ For now, I know:
 1. CHALK
 1. HTML
 1. CSS
-2. vanillaJS
+2. VanillaJS
