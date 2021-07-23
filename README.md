@@ -1,6 +1,6 @@
 # niharika's portfolio
 
-This is my personal portfolio in making. This is me adding README.md file to my repository.
+This is my personal portfolio in making.
 
 For now, I know:
 
@@ -10,3 +10,4 @@ For now, I know:
 1. CHALK
 1. HTML
 1. CSS
+2. VanillaJS
