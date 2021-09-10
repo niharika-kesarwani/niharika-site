@@ -86,11 +86,11 @@ body{
 }
 
 .hero{
-    padding: 2rem 0rem;
+    padding: 2rem;
 }
 
 .hero-img{
-    max-width: 40%;
+    max-width: 35%;
     display: block;
     margin: auto;
     padding: 2rem;
